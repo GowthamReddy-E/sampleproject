@@ -2,19 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('Good Morning') {
+        stage(' Morning') {
             steps {
-                echo 'Good morning!'
+                echo ' morning!'
             }
         }
-        stage('Good Afternoon') {
+        stage(' Afternoon') {
             steps {
-                echo 'Good afternoon!'
+                echo ' afternoon!'
             }
         }
         stage('Good Night') {
             steps {
-                echo 'Good night!'
+                echo ' night!'
             }
         }
     }
